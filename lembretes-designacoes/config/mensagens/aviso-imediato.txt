@@ -1,0 +1,14 @@
+# Aviso enviado na hora quando a designação é cadastrada tarde
+# (depois da data em que o lembrete de 30 ou 7 dias deveria ter saído).
+# Linhas que começam com # são comentários e NÃO são enviadas.
+# Campos: {primeiro_nome} {nome} {dia_semana} {data} {horario} {titulo_designacao} {designacao} {quando}
+Olá, {primeiro_nome}! 👋
+
+Você recebeu uma designação para a reunião:
+
+📅 Data: {dia_semana}, {data} às {horario}
+📌 {titulo_designacao}: {designacao}
+{local_linha}{observacao_linha}
+A reunião é {quando}.
+
+Contamos com você! Se não puder, avise o quanto antes.

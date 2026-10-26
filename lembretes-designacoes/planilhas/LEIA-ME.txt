@@ -1,0 +1,9 @@
+Coloque nesta pasta as suas planilhas:
+
+  designacoes.xlsx  (ou designacoes.csv)  -> depois rode: npm run importar
+  contatos.xlsx     (ou contatos.csv)     -> depois rode: npm run contatos
+
+Com esses nomes, não é preciso digitar o caminho do arquivo nos comandos.
+Veja modelos prontos na pasta "exemplos".
+
+Os arquivos desta pasta NÃO vão para o git (têm nomes e telefones).

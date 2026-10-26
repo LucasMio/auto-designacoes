@@ -1,0 +1,13 @@
+# Lembrete enviado NA VÉSPERA, à noite, quando o compromisso é de manhã
+# (ex.: campo no sábado às 08:30). Veja "lembreteVespera" no config.json.
+# Linhas que começam com # são comentários e NÃO são enviadas.
+# Campos: {primeiro_nome} {nome} {dia_semana} {data} {horario} {titulo_designacao} {designacao} {local_linha} {observacao_linha}
+#         {territorio_linha} (território do dia e link do mapa — só para dirigentes de campo)
+Olá, {primeiro_nome}! 👋
+
+Lembrete: é amanhã a sua designação.
+
+📅 {dia_semana}, {data} às {horario}
+📌 {titulo_designacao}: {designacao}
+{local_linha}{observacao_linha}{territorio_linha}
+Bom descanso e até amanhã! 🙏

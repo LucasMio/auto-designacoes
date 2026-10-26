@@ -1,0 +1,41 @@
+{
+  "name": "lembretes-designacoes",
+  "version": "1.0.0",
+  "description": "Envia lembretes de designações da congregação pelo WhatsApp",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/comandos/iniciar.js",
+    "conectar": "node --disable-warning=ExperimentalWarning src/comandos/conectar.js",
+    "importar": "node --disable-warning=ExperimentalWarning src/comandos/importar.js",
+    "importar-dirigentes": "node --disable-warning=ExperimentalWarning src/comandos/importar.js planilhas/dirigentes.xlsx",
+    "contatos": "node --disable-warning=ExperimentalWarning src/comandos/contatos.js",
+    "proximos": "node --disable-warning=ExperimentalWarning src/comandos/proximos.js",
+    "simular": "node --disable-warning=ExperimentalWarning src/comandos/simular.js",
+    "teste-envio": "node --disable-warning=ExperimentalWarning src/comandos/teste-envio.js",
+    "remover": "node --disable-warning=ExperimentalWarning src/comandos/remover.js",
+    "trocar": "node --disable-warning=ExperimentalWarning src/comandos/trocar.js",
+    "reenviar-erros": "node --disable-warning=ExperimentalWarning src/comandos/reenviar-erros.js",
+    "log": "node --disable-warning=ExperimentalWarning src/comandos/log.js",
+    "parar": "node --disable-warning=ExperimentalWarning src/comandos/parar.js",
+    "ligar": "powershell -NoProfile -Command \"Remove-Item -LiteralPath 'dados/pausado.json' -ErrorAction SilentlyContinue; Enable-ScheduledTask -TaskName 'Lembretes de Designacoes' -ErrorAction SilentlyContinue | Out-Null; Start-ScheduledTask -TaskName 'Lembretes de Designacoes'; if ($?) { 'Sistema ligado em segundo plano.' }\"",
+    "instalar-inicio": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/instalar-inicio-automatico.ps1",
+    "remover-inicio": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/remover-inicio-automatico.ps1",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "sugerir-escala": "node --disable-warning=ExperimentalWarning src/comandos/sugerir-escala.js",
+    "sugerir-dirigentes": "node --disable-warning=ExperimentalWarning src/comandos/sugerir-dirigentes.js",
+    "importar-discursos": "node --disable-warning=ExperimentalWarning src/comandos/importar.js planilhas/discursos.xlsx"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "luxon": "^3.7.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  },
+  "allowScripts": {
+    "puppeteer@24.38.0": true
+  }
+}

@@ -1,0 +1,12 @@
+# Mensagem enviada no dia da reunião (no horário "horaEnvio" do config.json).
+# Linhas que começam com # são comentários e NÃO são enviadas.
+# Campos: {primeiro_nome} {nome} {dia_semana} {data} {horario} {titulo_designacao} {designacao} {quando}
+#         {territorio_linha} (território do dia e link do mapa — só para dirigentes de campo)
+Olá, {primeiro_nome}! ☀️
+
+Hoje é o dia da sua designação:
+
+📅 {dia_semana}, {data} às {horario}
+📌 {titulo_designacao}: {designacao}
+{local_linha}{observacao_linha}{territorio_linha}
+Procure chegar alguns minutos antes. Obrigado! 🙏

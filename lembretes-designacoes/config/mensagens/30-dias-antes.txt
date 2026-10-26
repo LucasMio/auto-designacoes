@@ -1,0 +1,17 @@
+# Mensagem enviada 30 dias antes da reunião.
+# Linhas que começam com # são comentários e NÃO são enviadas.
+# Campos disponíveis:
+#   {primeiro_nome}  {nome}  {dia_semana}  {data}  {horario}
+#   {titulo_designacao} ("Designação" ou "Designações")
+#   {designacao} (ex.: "Leitor" ou "Indicador e Leitor")
+#   {quando} ("hoje", "amanhã", "daqui a 30 dias"...)
+Olá, {primeiro_nome}! 👋
+
+Passando para avisar com antecedência sobre a sua designação:
+
+📅 Data: {dia_semana}, {data} às {horario}
+📌 {titulo_designacao}: {designacao}
+{local_linha}{observacao_linha}
+A reunião é {quando}. Já deixe anotado na sua agenda! 🗓️
+
+Contamos com você! Se não puder, avise o quanto antes para organizarmos a substituição.

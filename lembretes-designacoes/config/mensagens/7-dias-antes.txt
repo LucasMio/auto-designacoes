@@ -1,0 +1,13 @@
+# Mensagem enviada 7 dias antes da reunião.
+# Linhas que começam com # são comentários e NÃO são enviadas.
+# Campos: {primeiro_nome} {nome} {dia_semana} {data} {horario} {titulo_designacao} {designacao} {quando}
+Olá, {primeiro_nome}! 👋
+
+Falta pouco! Lembrete da sua designação:
+
+📅 Data: {dia_semana}, {data} às {horario}
+📌 {titulo_designacao}: {designacao}
+{local_linha}{observacao_linha}
+A reunião é {quando}.
+
+Contamos com você! Se surgir algum imprevisto, avise o quanto antes.

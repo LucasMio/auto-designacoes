@@ -1,0 +1,15 @@
+# Resumo enviado quando a lista do mês é importada (esquema "resumo-mensal").
+# Uma mensagem por pessoa, com todas as designações dela.
+# Linhas que começam com # são comentários e NÃO são enviadas.
+# Campos: {primeiro_nome} {nome} {titulo} {lista}
+#   {titulo} = "Sua designação de Outubro" / "Suas designações de Outubro" / "Suas próximas designações"
+#   {lista}  = uma linha por reunião, ex.: "📅 Terça-feira, 06/10 às 19:30 — Indicador"
+Olá, {primeiro_nome}! 👋
+
+{titulo}:
+
+{lista}
+
+Você receberá um lembrete antes de cada uma: na manhã do dia, ou na véspera à noite quando for de manhã.
+
+Contamos com você! Se não puder em alguma data, avise o quanto antes.

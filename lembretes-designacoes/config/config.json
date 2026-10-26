@@ -1,0 +1,13 @@
+{
+  "lembretes": { "reuniao": ["dia"], "dirigentes": ["dia"], "discursos": ["dia"] },
+  "horaEnvio": "08:00",
+  "lembreteManha": { "quandoComecarAntesDe": "12:00", "hora": "07:00" },
+  "lembreteVespera": { "listas": ["dirigentes"], "diasDaSemana": ["sabado"], "hora": "19:00" },
+  "janelaEnvio": { "inicio": "07:00", "fim": "21:00" },
+  "intervaloEntreMensagens": { "minimoSegundos": 5, "maximoSegundos": 20 },
+  "horarioReunioes": { "terca": "19:30", "sabado": "19:00" },
+  "dddPadrao": "",
+  "meuNumero": "",
+  "avisarErrosNoWhatsApp": true,
+  "mostrarNavegador": false
+}
